@@ -1,0 +1,125 @@
+package com.collegeBean;
+
+public class College {
+	private int COLLEGE_ID, COLLEGE_PRIORITY, COLLEGE_STATUS;
+	private double COLLEGE_RATING;
+	private String COLLEGE_NAME, COLLEGE_LOCATION, COLLEGE_CATEGORY, COLLEGE_DETAILS, COLLEGE_PROGRAMS, COLLEGE_IMAGE;
+	
+	public College() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public College(int cOLLEGE_ID, int cOLLEGE_PRIORITY, int cOLLEGE_STATUS, double cOLLEGE_RATING, String cOLLEGE_NAME,
+			String cOLLEGE_LOCATION, String cOLLEGE_CATEGORY, String cOLLEGE_DETAILS, String cOLLEGE_PROGRAMS, String cOLLEGE_IMAGE) {
+		super();
+		COLLEGE_ID = cOLLEGE_ID;
+		COLLEGE_PRIORITY = cOLLEGE_PRIORITY;
+		COLLEGE_STATUS = cOLLEGE_STATUS;
+		COLLEGE_RATING = cOLLEGE_RATING;
+		COLLEGE_NAME = cOLLEGE_NAME;
+		COLLEGE_LOCATION = cOLLEGE_LOCATION;
+		COLLEGE_CATEGORY = cOLLEGE_CATEGORY;
+		COLLEGE_DETAILS = cOLLEGE_DETAILS;
+		COLLEGE_PROGRAMS = cOLLEGE_PROGRAMS;
+		COLLEGE_IMAGE = cOLLEGE_IMAGE;
+	}
+
+	public int getCOLLEGE_ID() {
+		return COLLEGE_ID;
+	}
+
+	public void setCOLLEGE_ID(int cOLLEGE_ID) {
+		COLLEGE_ID = cOLLEGE_ID;
+	}
+
+	public int getCOLLEGE_PRIORITY() {
+		return COLLEGE_PRIORITY;
+	}
+
+	public void setCOLLEGE_PRIORITY(int cOLLEGE_PRIORITY) {
+		COLLEGE_PRIORITY = cOLLEGE_PRIORITY;
+	}
+
+	public int getCOLLEGE_STATUS() {
+		return COLLEGE_STATUS;
+	}
+
+	public void setCOLLEGE_STATUS(int cOLLEGE_STATUS) {
+		COLLEGE_STATUS = cOLLEGE_STATUS;
+	}
+
+	public double getCOLLEGE_RATING() {
+		return COLLEGE_RATING;
+	}
+
+	public void setCOLLEGE_RATING(double cOLLEGE_RATING) {
+		COLLEGE_RATING = cOLLEGE_RATING;
+	}
+
+	public String getCOLLEGE_NAME() {
+		return COLLEGE_NAME;
+	}
+
+	public void setCOLLEGE_NAME(String cOLLEGE_NAME) {
+		COLLEGE_NAME = cOLLEGE_NAME;
+	}
+
+	public String getCOLLEGE_LOCATION() {
+		return COLLEGE_LOCATION;
+	}
+
+	public void setCOLLEGE_LOCATION(String cOLLEGE_LOCATION) {
+		COLLEGE_LOCATION = cOLLEGE_LOCATION;
+	}
+
+	public String getCOLLEGE_CATEGORY() {
+		return COLLEGE_CATEGORY;
+	}
+
+	public void setCOLLEGE_CATEGORY(String cOLLEGE_CATEGORY) {
+		COLLEGE_CATEGORY = cOLLEGE_CATEGORY;
+	}
+
+	public String getCOLLEGE_DETAILS() {
+		return COLLEGE_DETAILS;
+	}
+
+	public void setCOLLEGE_DETAILS(String cOLLEGE_DETAILS) {
+		COLLEGE_DETAILS = cOLLEGE_DETAILS;
+	}
+
+	public String getCOLLEGE_PROGRAMS() {
+		return COLLEGE_PROGRAMS;
+	}
+
+	public void setCOLLEGE_PROGRAMS(String cOLLEGE_PROGRAMS) {
+		COLLEGE_PROGRAMS = cOLLEGE_PROGRAMS;
+	}
+	
+	public String getCOLLEGE_IMAGE() {
+		return COLLEGE_IMAGE;
+	}
+
+	public void setCOLLEGE_IMAGE(String cOLLEGE_IMAGE) {
+		COLLEGE_IMAGE = cOLLEGE_IMAGE;
+	}
+
+	@Override
+	public String toString() {
+		return "College [COLLEGE_ID=" + COLLEGE_ID + ", COLLEGE_PRIORITY=" + COLLEGE_PRIORITY + ", COLLEGE_STATUS="
+				+ COLLEGE_STATUS + ", COLLEGE_RATING=" + COLLEGE_RATING + ", COLLEGE_NAME=" + COLLEGE_NAME
+				+ ", COLLEGE_LOCATION=" + COLLEGE_LOCATION + ", COLLEGE_CATEGORY=" + COLLEGE_CATEGORY
+				+ ", COLLEGE_DETAILS=" + COLLEGE_DETAILS + ", COLLEGE_PROGRAMS=" + COLLEGE_PROGRAMS + ", COLLEGE_IMAGE="
+				+ COLLEGE_IMAGE + "]";
+	}
+	
+
+
+
+
+	
+	
+	
+
+}
