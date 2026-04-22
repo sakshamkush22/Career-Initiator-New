@@ -8,6 +8,11 @@ public class MyConnection {
     public static Connection getConnection() {
         Connection con = null;
         try {
+            
+            // SSL config set
+            System.setProperty("javax.net.ssl.trustStore", "C:\\Users\\shubh\\Downloads\\truststore.jks");
+            System.setProperty("javax.net.ssl.trustStorePassword", "changeit");
+            
             // Hum Render se ye values uthayenge
             String dbUrl = System.getenv("DB_URL");
             String dbUser = System.getenv("DB_USER");
