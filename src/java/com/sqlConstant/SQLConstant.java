@@ -8,7 +8,7 @@ public class SQLConstant {
 	public final static String VIEW_BY_ID="select * from ADD_CARREER where c_Id=?";
 	public final static String DELETE_CAREER="delete from ADD_CARREER where c_Id=?";
 	public final static String VIEW_ALL="select * from ADD_CARREER";
-        public final static String VIEW_TOP_CAREER="select * from mydb.ADD_CARREER LIMIT 8";
+        public final static String VIEW_TOP_CAREER="select * from ADD_CARREER LIMIT 8";
         //public final static String VIEW_TOP_CAREER="select * from ADD_CARREER WHERE ROWNUM <=8";
 
         
